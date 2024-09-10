@@ -1,0 +1,62 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.component {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.bp5-dark #root {
+  background-color: black !important;
+}
+#root {
+  width: 100vw;
+  height: 100%;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  padding: 15px 0px 15px 10px;
+  height: 24px;
+  width: auto;
+  cursor: pointer;
+}
+
+.bp5-dark .bp5-navbar {
+  background-color: black !important;
+}
+
+.polotno-side-tabs-container {
+  border-right: 1px solid white;
+}
+
+.polotno-panel-container {
+  border-right: 1px solid white;
+}
+
+// Toolbar
+.go3593045756 {
+  border-bottom: 1px solid white;
+}
+
+// SidePanel
+.go806284747 {
+  min-width: 90px !important;
+}
+
+// overwrite colors for side-panel tabs
+.bp5-dark .polotno-side-tabs-container .polotno-side-panel-tab:hover,
+.bp5-dark .polotno-side-tabs-container .polotno-side-panel-tab.active {
+  background-color: inherit;
+  color: white;
+}
